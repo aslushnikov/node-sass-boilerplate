@@ -1,3 +1,31 @@
+`=========================================`
+
+# Fast getting started
+
+Pre-requirements:
+* Node & NPM. [Convenient installer](https://github.com/visionmedia/n)
+
+Installing all app deps:
+* `git clone https://github.com/aslushnikov/node-sass-boilerplate.git`
+* `cd node-sass-boilerplate`
+* `npm install -g bower`
+* `npm install -g grunt`
+* `bower install`
+* `npm install .`
+
+Running app:
+```
+node app.js
+```
+
+Running SASS watchdog:
+```
+./node_modules/.bin/grunt watch
+```
+
+
+`=========================================`
+
 # Steps used to create this project
 
 ## Run the following steps inside a clean directory

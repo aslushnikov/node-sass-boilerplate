@@ -8,6 +8,8 @@ Pre-requirements:
 Installing all app deps:
 * `git clone https://github.com/aslushnikov/node-sass-boilerplate.git`
 * `cd node-sass-boilerplate`
+* `sudo apt-get install ruby-sass`
+* `sudo apt-get install ruby-compass`
 * `npm install -g bower`
 * `npm install -g grunt`
 * `bower install`

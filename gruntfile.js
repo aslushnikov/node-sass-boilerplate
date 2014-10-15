@@ -10,7 +10,9 @@ module.exports = function(grunt) {
             './bower_components/bower-bourbon',
             './bower_components/color-scale',
             './bower_components/type-rhythm-scale'
-          ]
+          ],
+
+          sourceMap: true,
         }
       }
     },
@@ -19,7 +21,7 @@ module.exports = function(grunt) {
         files: ['sass/**/*.scss', 'views/**/*.jade'],
         tasks: ['sass'],
         options: {
-          livereload: true, // needed to run LiveReload
+          livereload: false, // needed to run LiveReload
         }
       }
     }

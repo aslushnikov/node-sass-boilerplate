@@ -14,6 +14,7 @@ app.set('view engine', 'jade');
 
 // instruct express to server up static assets
 app.use(express.static('public'));
+app.use("/sass", express.static('sass'));
 
 
 // set routes
